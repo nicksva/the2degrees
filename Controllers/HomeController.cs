@@ -452,6 +452,8 @@ namespace _2deg.Controllers
             modeli.output19 = waterdom(2, modeli);
             modeli.output20 = waternodom(2, modeli);
             modeli.output21 = cars(2, modeli);
+            modeli.Sum = modeli.output + modeli.output1 + modeli.output2 + modeli.output3 + modeli.output4 + modeli.output5 + modeli.output6 + modeli.output11 + modeli.output12 + modeli.output13 + modeli.output14 + modeli.output15 + modeli.output16 + modeli.output17 + modeli.output18 + modeli.output19 + modeli.output20 + modeli.output21;
+            
             return View(modeli);
 
         }
@@ -476,6 +478,8 @@ namespace _2deg.Controllers
             modeli.output19 = waterdom(3, modeli);
             modeli.output20 = waternodom(3, modeli);
             modeli.output21 = cars(3, modeli);
+             modeli.Sum = modeli.output + modeli.output1 + modeli.output2 + modeli.output3 + modeli.output4 + modeli.output5 + modeli.output6+ modeli.output11 + modeli.output12 + modeli.output13 + modeli.output14 + modeli.output15 + modeli.output16 + modeli.output17 + modeli.output18 + modeli.output19 + modeli.output20 + modeli.output21;
+            
             return View(modeli);
 
         }
@@ -504,6 +508,8 @@ namespace _2deg.Controllers
             modeli.output21 = cars(4, modeli);
             modeli.output22 = emis[21] * 0.3;
             modeli.output23 = emis[23] * 0.2;
+             modeli.Sum = modeli.outputm+modeli.output9+modeli.output + modeli.output1 + modeli.output2 + modeli.output3 + modeli.output4 + modeli.output5 + modeli.output6 + modeli.output11 + modeli.output12 + modeli.output13 + modeli.output14 + modeli.output15 + modeli.output16 + modeli.output17 + modeli.output18 + modeli.output19 + modeli.output20 + modeli.output21 + modeli.output22 + modeli.output23;
+            
             return View(modeli);
 
         }
@@ -529,6 +535,8 @@ namespace _2deg.Controllers
             modeli.output19 = waterdom(10, modeli);
             modeli.output20 = waternodom(10, modeli);
             modeli.output21 = cars(10, modeli);
+             modeli.Sum = modeli.output + modeli.output1 + modeli.output2 + modeli.output3 + modeli.output4 + modeli.output5 + modeli.output6 + modeli.output7 + modeli.output11 + modeli.output12 + modeli.output13 + modeli.output14 + modeli.output15 + modeli.output16 + modeli.output17 + modeli.output18 + modeli.output19 + modeli.output20 + modeli.output21;
+            
             return View(modeli);
 
         }
@@ -559,6 +567,8 @@ namespace _2deg.Controllers
             modeli.output19 = waterdom(7, modeli);
             modeli.output20 = waternodom(7, modeli);
             modeli.output21 = cars(7, modeli);
+            modeli.Sum = modeli.output + modeli.output1 + modeli.output2 + modeli.output3 + modeli.output4 + modeli.output5 + modeli.output6 + modeli.output11 + modeli.output12 + modeli.output13 + modeli.output14 + modeli.output15 + modeli.output16 + modeli.output17 + modeli.output18 + modeli.output19 + modeli.output20 + modeli.output21;
+            
             return View(modeli);
 
         }
@@ -583,6 +593,7 @@ namespace _2deg.Controllers
             modeli.output19 = waterdom(6, modeli);
             modeli.output20 = waternodom(6, modeli);
             modeli.output21 = cars(6, modeli);
+                        modeli.Sum = modeli.output + modeli.output1 + modeli.output2 + modeli.output3 + modeli.output4 + modeli.output5 + modeli.output6+ modeli.output11 + modeli.output12 + modeli.output13 + modeli.output14 + modeli.output15 + modeli.output16 + modeli.output17 + modeli.output18 + modeli.output19 + modeli.output20 + modeli.output21;
             return View(modeli);
 
         }
