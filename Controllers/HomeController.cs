@@ -111,14 +111,14 @@ namespace _2deg.Controllers
         List<double> TotalArea1000ha = Datagaming1(16);
         List<double> GrassLands1000ha = Datagaming1(17);
      
-        double cars(int j,Data x)
+      double cars(int j,Data x)
         {       double e;
-                 e = LightVehicals[12] * LightVehicals[13] * LightVehicals[14]+ Busses[12] * Busses[13] * Busses[14]+ Trucks[14] * Trucks[12] * Trucks[13];
+                 e = LightVehicals[11] * LightVehicals[12] * LightVehicals[13]+ Busses[12] * Busses[13] * Busses[11]+ Trucks[11] * Trucks[12] * Trucks[13];
             double a, b, c;
-            a = (LightVehicals[13] / LightVehicals[12])* LightVehicals[14]* LightVehicals[13]* LightVehicals[j];
-            b= (Busses[13] / Busses[12]) * Busses[12] * Busses[13]* Busses[j];
-            c = (Trucks[13] / Trucks[12]) * Trucks[12] * Trucks[13]* Trucks[j];
-              return emis[9] * ((a + b + c) / e);
+            a = (LightVehicals[12] / LightVehicals[11])* LightVehicals[13]* LightVehicals[12]* LightVehicals[j];
+            b= (Busses[12] / Busses[11]) * Busses[11] * Busses[12]* Busses[j];
+            c = (Trucks[12] / Trucks[11]) * Trucks[11] * Trucks[12]* Trucks[j];
+            return emis[9]*((a + b + c) / e);
           //  return e;
         }
 
