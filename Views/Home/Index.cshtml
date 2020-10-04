@@ -1,0 +1,147 @@
+﻿@model _2deg.Models.Region;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<style>
+    .mapgeo {
+        position: absolute;
+        top: 60px;
+        left: 100px;
+    }
+
+    .afxazetibutton {
+        position: absolute;
+        top: 255px;
+        left: 370px;
+    }
+
+    .samegrelozemosvanetibutton {
+        position: absolute;
+        top: 291px;
+        left: 585px;
+    }
+
+    .guriabutton {
+        position: absolute;
+        top: 610px;
+        left: 570px;
+    }
+
+    .acharabutton {
+        position: absolute;
+        top: 710px;
+        left: 564px;
+    }
+
+    .rachalechxumiqvemosvanetibutton {
+        position: absolute;
+        top: 375px;
+        left: 705px;
+    }
+
+    .imeretibutton {
+        position: absolute;
+        top: 555px;
+        left: 749px;
+    }
+
+    .samcxejavaxetibutton {
+        position: absolute;
+        top: 755px;
+        left: 800px;
+    }
+
+    .shidaqartlibutton {
+        position: absolute;
+        top: 635px;
+        left: 970px;
+    }
+
+    .qvemoqartlibutton {
+        position: absolute;
+        top: 775px;
+        left: 1090px;
+    }
+
+    .tbilisibutton {
+        position: absolute;
+        top: 709px;
+        left: 1190px;
+    }
+
+    .osetibutton {
+        position: absolute;
+        top: 505px;
+        left: 1010px;
+    }
+
+    .mcxxetamtianetibutton {
+        position: absolute;
+        top: 475px;
+        left: 1165px;
+    }
+
+    .kaxetibutton {
+        position: absolute;
+        top: 705px;
+        left: 1400px;
+    }
+    .textin {
+        position:absolute;
+        left:1000px;
+        top:15px;
+    }
+</style>
+<div class="textin">
+    @using (Html.BeginForm("Index","Home",FormMethod.Post)) {
+            @Html.TextBoxFor(m => m.name)
+        <input id="Submit" type="submit" value="submit"/>
+    
+    }
+</div>
+<div class="mapgeo">
+    <img src="https://cdn.discordapp.com/attachments/603893750762045450/762293513466806322/unknown.png" alt="Georgia" width="1596px" height="903px">
+</div>
+<div class="afxazetibutton">
+    <a type="btn btn-default" asp-controller="Home" asp-action="Afxazeti">აფხაზეთი</a>
+</div>
+<div class="samegrelozemosvanetibutton">
+    <a type="btn btn-default" asp-controller="Home" asp-action="Samegrelozemosvaneti">სამეგრელო-ზემო სვანეთი</a>
+</div>
+<div class="guriabutton">
+    <a type="btn btn-default" asp-controller="Home" asp-action="Guria">გურია</a>
+</div>
+<div class="acharabutton">
+    <a type="btn btn-default" asp-controller="Home" asp-action="Achara">აჭარა</a>
+</div>
+<div class="rachalechxumiqvemosvanetibutton">
+    <a type="btn btn-default" asp-controller="Home" asp-action="Rachalechxumidaqvemosvaneti">რაჭა-ლეჩხუმი და ქვემო სვანეთი</a>
+</div>
+<div class="imeretibutton">
+    <a type="btn btn-default" asp-controller="Home" asp-action="Imereti">იმერეთი</a>
+</div>
+<div class="samcxejavaxetibutton">
+    <a type="btn btn-default" asp-controller="Home" asp-action="Samcxejavaxeti">სამცხე-ჯავახეთი</a>
+</div>
+<div class="shidaqartlibutton">
+    <a type="btn btn-default" asp-controller="Home" asp-action="Shidaqartli">შიდა ქართლი</a>
+</div>
+<div class="qvemoqartlibutton">
+    <a type="btn btn-default" asp-controller="Home" asp-action="Qvemoqartli">ქვემო ქართლი</a>
+</div>
+<div class="tbilisibutton">
+    <a type="btn btn-default" asp-controller="Home" asp-action="Tbilisi">თბილისი</a>
+</div>
+<div class="osetibutton">
+    <a type="btn btn-default" asp-controller="Home" asp-action="Oseti">ოსეთი</a>
+</div>
+<div class="mcxxetamtianetibutton">
+    <a type="btn btn-default" asp-controller="Home" asp-action="Mcxetamtianeti">მცხეთა-მთიანეთი</a>
+</div>
+<div class="kaxetibutton">
+    <a type="btn btn-default" asp-controller="Home" asp-action="Kaxeti">კახეთი</a>
+</div>
+
+
